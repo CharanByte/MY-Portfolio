@@ -250,7 +250,7 @@ span{
    background-color: var(--header-color);
    height: 300px;
    border-radius: 20px;
-   padding-left: 90px;
+   padding-left: 100px;
 }
 .container{
     width: 45%;
@@ -265,14 +265,15 @@ span{
 
 
 .heading1{
-    margin-left: 42%;
-   padding-top: 10px;
-   padding-right:  10px; 
-    padding-left:  10px;  
-    font-size: 20px;
-    margin-bottom: 40px;
-    background-color: #84e4db;
-    color: #035149;
+    margin-left: -70px;
+   padding-top: 7px;
+    
+    
+    padding-bottom: 0;
+    font-size: 6rem;
+   height: 60px;
+    
+    color: #058b7d;
     border-radius: 20px;
 }
 
@@ -482,6 +483,7 @@ textarea {
     /* Header */
     #menu-icon {
         display: block; /* Show hamburger menu */
+        color: #000;
     }
 
     .navbar {
@@ -552,21 +554,20 @@ textarea {
     }
 
     /* Skills Section */
-    .section-skills {
-        flex-direction: column;
-        align-items: center;
-    }
+   
 
     .container1,
     .container {
         width: 90%;
-        margin-left: 0;
-        padding-left: 2rem;
+        margin-left: 22px;
+        padding-left: 5rem;
+        
     }
 
     .heading1 {
-        margin-left: 0;
+        margin-left: 30px;
         text-align: center;
+        font-size: 4.5rem;
     }
 
     /* Contact Section */
@@ -628,8 +629,18 @@ textarea {
         margin-left: 0px;
     }
 
+    .container1,
+    .container {
+        width: 90%;
+        margin-left: 10px;
+        padding-left: 2rem;
+        
+    }
+
     .heading1 {
-        font-size: 1.8rem;
+        margin-left: 30px;
+        text-align: center;
+        font-size: 3.5rem;
     }
 
     /* Contact Section */
@@ -652,5 +663,4 @@ textarea {
         padding: 1rem;
     }
 }
-
 
